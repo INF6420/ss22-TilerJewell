@@ -1,0 +1,65 @@
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 100;
+}
+
+body {
+    Background: lightgrey;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+   
+}
+
+h1{
+text-decoration: wavy;
+font-style:oblique;
+text-align:center;
+padding-top: 50px;
+
+}
+
+a {
+    text-decoration:underline;
+    color:black;
+}
+
+img.one{
+    width: 500px;
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+img.two{
+    width: 100px;
+    float:right;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+
+img.writ{
+    width:40vw;
+}
+
+img.bottom{
+    width:95vw;
+}
+
+div.one{
+    text-align:center;
+}
+
+li.one{
+    display:inline;
+    text-align: center;
+    padding: 50px;
+   background-color:blanchedalmond;
+}
+
+img.proj{
+    width:40vw
+
+    
+}

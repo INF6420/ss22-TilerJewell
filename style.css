@@ -40,14 +40,17 @@ img.two{
 
 
 img.writ{
-    width:40vw;
+    width:50%;
+    
 }
 
 img.bottom{
-    width:95vw;
+    width:100%;
+    padding:30px;
 }
 
 div.one{
+    Padding:30px;
     text-align:center;
 }
 
@@ -59,7 +62,27 @@ li.one{
 }
 
 img.proj{
-    width:40vw
+    width:50%;
 
     
 }
+
+.social-icons {
+    padding:30px;
+	background-color:blanchedalmond;
+  text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

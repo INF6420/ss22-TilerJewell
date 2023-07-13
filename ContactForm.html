@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiler's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+   <header>
+    <nav>
+        <ul>
+            <li class="one"><a href="index.html">Home</a></li>
+            <li class="one"><a href="Writing.html">Writing</a></li>
+            <li class="one"><a href="ProjectsandPlanning.html">Projects</a></li>
+            <li class="one"><a href="ContactForm.html"> Contact Me!</a></li>
+        </ul>
+    </nav>
+   </header>
+   <div class="container">
+	<h1>Contact Form</h1>
+    <form action= "https://formspree.io/f/xoqoqbqd" method="post" data-validate>
+        <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" class="form-input" required>
+        </div>
+        <div>   
+        <label for="email">Your Email</label>
+        <input name="Email" id="email" type="email" class="form-input" required>
+        </div>
+        <div>
+        <label> Your message: <textarea name="message" class="form-input" required></textarea>
+          </label>
+        </div>
+        <div>
+        <button type="submit">Submit</button>
+        </div>
+      </form>
+</div>
+
+<footer>
+    <div class="social-icons">
+        <h3>Socials</h3>
+        <a href="https://www.instagram.com/t.jewel.l/">Instagram</a>
+        <a href="https://www.linkedin.com/in/tiler-jewell/">LinkedIn</a>
+        <h3>Email me at tjbree@gmail.com</h3>
+    </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
+   <script>
+   validate.init();
+   </script>
+
+</body>
+</html>
